@@ -1,0 +1,299 @@
+{
+  "source_sha256": "6034a14eb30d9454fb91fdfacaa7ecd22b6c9f1e1597a741d8d6c3a743c99f2c",
+  "zero_policy": "Internal no-transaction zeros remain unverified and unchanged. Templates exclude incomplete hourly grids, days outside the transaction envelope, and first/last days not fully enclosed by evidence. Boundary exclusion is conservative, not proof of missing transactions. Raw and aligned load records are unchanged.",
+  "stations": {
+    "A10": {
+      "valid_sessions": 12964,
+      "invalid_sessions": 0,
+      "first_connection": "2024-09-27T05:31:32",
+      "last_disconnection": "2025-01-01T01:14:42",
+      "first_evidence_date": "2024-09-27",
+      "last_evidence_date": "2025-01-01",
+      "excluded_template_dates": [
+        "2024-09-27",
+        "2025-01-01"
+      ],
+      "excluded_template_reasons": {
+        "2024-09-27": [
+          "first_day_coverage_unconfirmed"
+        ],
+        "2025-01-01": [
+          "last_day_incomplete_coverage"
+        ]
+      },
+      "eligible_template_days": 95,
+      "published_complete_days": 97,
+      "excluded_outside_envelope_dates": [],
+      "ambiguous_internal_zero_dates": [],
+      "published_zero_days": 0,
+      "all_zeros_meter_verified": false
+    },
+    "A1": {
+      "valid_sessions": 87836,
+      "invalid_sessions": 378,
+      "first_connection": "2024-01-01T00:00:00",
+      "last_disconnection": "2025-01-01T01:13:00",
+      "first_evidence_date": "2024-01-01",
+      "last_evidence_date": "2025-01-01",
+      "excluded_template_dates": [
+        "2025-01-01"
+      ],
+      "excluded_template_reasons": {
+        "2025-01-01": [
+          "last_day_incomplete_coverage"
+        ]
+      },
+      "eligible_template_days": 366,
+      "published_complete_days": 367,
+      "excluded_outside_envelope_dates": [],
+      "ambiguous_internal_zero_dates": [],
+      "published_zero_days": 0,
+      "all_zeros_meter_verified": false
+    },
+    "A2": {
+      "valid_sessions": 229967,
+      "invalid_sessions": 0,
+      "first_connection": "2024-01-01T00:00:16",
+      "last_disconnection": "2025-01-01T01:45:54",
+      "first_evidence_date": "2024-01-01",
+      "last_evidence_date": "2025-01-01",
+      "excluded_template_dates": [
+        "2024-01-01",
+        "2025-01-01"
+      ],
+      "excluded_template_reasons": {
+        "2024-01-01": [
+          "first_day_coverage_unconfirmed"
+        ],
+        "2025-01-01": [
+          "last_day_incomplete_coverage"
+        ]
+      },
+      "eligible_template_days": 365,
+      "published_complete_days": 367,
+      "excluded_outside_envelope_dates": [],
+      "ambiguous_internal_zero_dates": [],
+      "published_zero_days": 0,
+      "all_zeros_meter_verified": false
+    },
+    "A3": {
+      "valid_sessions": 54824,
+      "invalid_sessions": 0,
+      "first_connection": "2024-01-01T00:00:22",
+      "last_disconnection": "2025-01-01T02:40:43",
+      "first_evidence_date": "2024-01-01",
+      "last_evidence_date": "2025-01-01",
+      "excluded_template_dates": [
+        "2024-01-01",
+        "2025-01-01"
+      ],
+      "excluded_template_reasons": {
+        "2024-01-01": [
+          "first_day_coverage_unconfirmed"
+        ],
+        "2025-01-01": [
+          "last_day_incomplete_coverage"
+        ]
+      },
+      "eligible_template_days": 365,
+      "published_complete_days": 367,
+      "excluded_outside_envelope_dates": [],
+      "ambiguous_internal_zero_dates": [],
+      "published_zero_days": 0,
+      "all_zeros_meter_verified": false
+    },
+    "A4": {
+      "valid_sessions": 99446,
+      "invalid_sessions": 0,
+      "first_connection": "2024-01-01T00:00:32",
+      "last_disconnection": "2025-01-01T02:20:51",
+      "first_evidence_date": "2024-01-01",
+      "last_evidence_date": "2025-01-01",
+      "excluded_template_dates": [
+        "2024-01-01",
+        "2025-01-01"
+      ],
+      "excluded_template_reasons": {
+        "2024-01-01": [
+          "first_day_coverage_unconfirmed"
+        ],
+        "2025-01-01": [
+          "last_day_incomplete_coverage"
+        ]
+      },
+      "eligible_template_days": 365,
+      "published_complete_days": 367,
+      "excluded_outside_envelope_dates": [],
+      "ambiguous_internal_zero_dates": [],
+      "published_zero_days": 0,
+      "all_zeros_meter_verified": false
+    },
+    "A5": {
+      "valid_sessions": 3338,
+      "invalid_sessions": 0,
+      "first_connection": "2024-01-01T10:20:52",
+      "last_disconnection": "2025-01-01T06:05:53",
+      "first_evidence_date": "2024-01-01",
+      "last_evidence_date": "2025-01-01",
+      "excluded_template_dates": [
+        "2024-01-01",
+        "2025-01-01"
+      ],
+      "excluded_template_reasons": {
+        "2024-01-01": [
+          "first_day_coverage_unconfirmed"
+        ],
+        "2025-01-01": [
+          "last_day_incomplete_coverage"
+        ]
+      },
+      "eligible_template_days": 365,
+      "published_complete_days": 367,
+      "excluded_outside_envelope_dates": [],
+      "ambiguous_internal_zero_dates": [],
+      "published_zero_days": 0,
+      "all_zeros_meter_verified": false
+    },
+    "A6": {
+      "valid_sessions": 12689,
+      "invalid_sessions": 0,
+      "first_connection": "2024-01-01T01:13:08",
+      "last_disconnection": "2025-01-01T06:22:10",
+      "first_evidence_date": "2024-01-01",
+      "last_evidence_date": "2025-01-01",
+      "excluded_template_dates": [
+        "2024-01-01",
+        "2025-01-01"
+      ],
+      "excluded_template_reasons": {
+        "2024-01-01": [
+          "first_day_coverage_unconfirmed"
+        ],
+        "2025-01-01": [
+          "last_day_incomplete_coverage"
+        ]
+      },
+      "eligible_template_days": 365,
+      "published_complete_days": 367,
+      "excluded_outside_envelope_dates": [],
+      "ambiguous_internal_zero_dates": [],
+      "published_zero_days": 0,
+      "all_zeros_meter_verified": false
+    },
+    "A7": {
+      "valid_sessions": 117882,
+      "invalid_sessions": 0,
+      "first_connection": "2024-01-01T00:00:55",
+      "last_disconnection": "2025-01-01T01:08:08",
+      "first_evidence_date": "2024-01-01",
+      "last_evidence_date": "2025-01-01",
+      "excluded_template_dates": [
+        "2024-01-01",
+        "2025-01-01",
+        "2025-01-02"
+      ],
+      "excluded_template_reasons": {
+        "2024-01-01": [
+          "first_day_coverage_unconfirmed"
+        ],
+        "2025-01-01": [
+          "last_day_incomplete_coverage"
+        ],
+        "2025-01-02": [
+          "outside_transaction_envelope"
+        ]
+      },
+      "eligible_template_days": 365,
+      "published_complete_days": 368,
+      "excluded_outside_envelope_dates": [
+        "2025-01-02"
+      ],
+      "ambiguous_internal_zero_dates": [],
+      "published_zero_days": 1,
+      "all_zeros_meter_verified": false
+    },
+    "A8": {
+      "valid_sessions": 8211,
+      "invalid_sessions": 0,
+      "first_connection": "2024-01-26T07:39:16",
+      "last_disconnection": "2024-12-31T10:07:38",
+      "first_evidence_date": "2024-01-26",
+      "last_evidence_date": "2024-12-31",
+      "excluded_template_dates": [
+        "2024-01-26",
+        "2024-12-31",
+        "2025-01-01"
+      ],
+      "excluded_template_reasons": {
+        "2024-01-26": [
+          "first_day_coverage_unconfirmed"
+        ],
+        "2024-12-31": [
+          "last_day_incomplete_coverage"
+        ],
+        "2025-01-01": [
+          "outside_transaction_envelope"
+        ]
+      },
+      "eligible_template_days": 339,
+      "published_complete_days": 342,
+      "excluded_outside_envelope_dates": [
+        "2025-01-01"
+      ],
+      "ambiguous_internal_zero_dates": [
+        "2024-09-16",
+        "2024-10-18",
+        "2024-10-20",
+        "2024-10-22",
+        "2024-10-24",
+        "2024-10-31",
+        "2024-11-01",
+        "2024-11-07",
+        "2024-11-13",
+        "2024-11-14",
+        "2024-11-18",
+        "2024-11-19",
+        "2024-11-25",
+        "2024-11-26",
+        "2024-11-27",
+        "2024-12-03",
+        "2024-12-08",
+        "2024-12-12",
+        "2024-12-16",
+        "2024-12-20",
+        "2024-12-21",
+        "2024-12-24",
+        "2024-12-25",
+        "2024-12-27"
+      ],
+      "published_zero_days": 25,
+      "all_zeros_meter_verified": false
+    },
+    "A9": {
+      "valid_sessions": 44239,
+      "invalid_sessions": 0,
+      "first_connection": "2024-01-01T00:07:15",
+      "last_disconnection": "2025-01-01T00:45:35",
+      "first_evidence_date": "2024-01-01",
+      "last_evidence_date": "2025-01-01",
+      "excluded_template_dates": [
+        "2024-01-01",
+        "2025-01-01"
+      ],
+      "excluded_template_reasons": {
+        "2024-01-01": [
+          "first_day_coverage_unconfirmed"
+        ],
+        "2025-01-01": [
+          "last_day_incomplete_coverage"
+        ]
+      },
+      "eligible_template_days": 365,
+      "published_complete_days": 367,
+      "excluded_outside_envelope_dates": [],
+      "ambiguous_internal_zero_dates": [],
+      "published_zero_days": 0,
+      "all_zeros_meter_verified": false
+    }
+  }
+}

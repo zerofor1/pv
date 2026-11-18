@@ -1,0 +1,14 @@
+{
+  "seed": 20261117,
+  "block_candidates": [1, 3, 7],
+  "scale_limit": 0.1,
+  "shape_replace_probability": 0.25,
+  "boundary_proposals": 3,
+  "season_window_days": 45,
+  "validation_seeds": [11, 29, 47],
+  "validation_draws_per_seed": 3,
+  "test_draws": 100,
+  "weather_min_relative_gain": 0.05,
+  "weather_source": "era5_reference",
+  "notes": "Assumed real load scenarios conditioned on historical ERA5 actual weather, not an advance forecasting backtest. No capacity clipping. A10 annual scenarios are exploratory."
+}

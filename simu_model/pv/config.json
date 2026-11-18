@@ -1,0 +1,38 @@
+{
+  "site_id": "shanghai_reference",
+  "simulation": {
+    "start": "2022-01-01",
+    "end": "2026-01-01",
+    "timezone": "Asia/Shanghai",
+    "interval_hours": 1
+  },
+  "pv": {
+    "latitude": 31.2304,
+    "longitude": 121.4737,
+    "tilt_deg": 20,
+    "azimuth_deg": 180,
+    "dc_capacity_kwp": 29.7,
+    "ac_capacity_kw": 25,
+    "gamma_per_c": -0.0029,
+    "albedo": 0.2,
+    "inverter_nominal_efficiency": 0.96,
+    "dc_loss_fraction": 0,
+    "faiman_u0": 25,
+    "faiman_u1": 6.84,
+    "wind_speed_multiplier": 0.7,
+    "module_count": 66,
+    "module_power_w": 450,
+    "module_length_m": 1.762,
+    "module_width_m": 1.134,
+    "iam_b0": 0.05,
+    "soiling_loss_fraction": 0.02,
+    "mismatch_loss_fraction": 0.01,
+    "dc_wiring_loss_fraction": 0.015,
+    "ac_wiring_loss_fraction": 0.01
+  },
+  "provenance": {
+    "status": "reference_PV_scenario_not_surveyed_station",
+    "equipment": "66 x 450 W modules, 29.7 kWp DC and 25 kW inverter; reference scenario, not measured station equipment or sizing advice.",
+    "coordinates": "Shanghai city reference 31.2304 N,121.4737 E; not surveyed station coordinates."
+  }
+}

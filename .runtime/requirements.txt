@@ -1,0 +1,12 @@
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+pandas>=2.2
+openpyxl>=3.1
+chinese-calendar>=1.11
+requests>=2.31
+zarr>=3.1,<4
+fsspec[http]
+aiohttp>=3.9
+google-crc32c>=1.5
+numcodecs>=0.16

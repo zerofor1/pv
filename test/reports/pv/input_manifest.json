@@ -1,0 +1,29 @@
+{
+  "input_paths": {
+    "era5": "data/weather/era5/hourly.csv",
+    "gfs": "data/weather/gfs/hourly.csv",
+    "config": "model/pv/config.json",
+    "model": "model/pv/simulate.py",
+    "runner": "model/pv/run.py"
+  },
+  "input_sha256": {
+    "era5": "97a14095c5a07664da232fbc992f4153bf054ebc42a75b9c7177c77bcb3966d2",
+    "gfs": "d474355d5d55a2b763096c966d087b21c315f8fcc8fc33bb19c4f2ff78be0f2e",
+    "config": "830736a341d1a66a5600f9cf37ab74a04b95f0c03a8866d14ae9f5c75714990c",
+    "model": "cb5fefe69b478226ca580342ef1a78829608303b0b00d1a9d634fa568713f7d0",
+    "runner": "f4ab8de31f22af64be07afe4c778ec74ba270a4f5249687e209ce165319bb948"
+  },
+  "outputs": {
+    "data/weather/era5/pv_hourly.csv": {
+      "sha256": "d39ad82c80fe6ab6e989932c37b4e5cded2985842c43c1b1a940cf98516ab744",
+      "role": "reference PV"
+    },
+    "data/weather/gfs/pv_hourly.csv": {
+      "sha256": "40404566c175f701871bae848366156249218f4ea2ca8f36c844cd28e7be70dc",
+      "role": "forecast PV"
+    }
+  },
+  "site_id": "shanghai_reference",
+  "pv_config_id": "7fe7aed337ffe3bd",
+  "note": "Reference engineering array, not measured station equipment. ERA5 actuals drive reference PV."
+}
